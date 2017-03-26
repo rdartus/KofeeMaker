@@ -1,0 +1,21 @@
+{
+  "name": "KofeeMaker",
+  "version": "1.0.0",
+  "description": "Projet kiff et le café",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "db":"mongod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Richard Dartus & Thibault Delmas ",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.13.4",
+    "eslint": "^3.18.0",
+    "mongoose": "^4.4.15",
+    "node-restful": "^0.2.5",
+    "nodemon": "^1.9.2"
+  }
+}
