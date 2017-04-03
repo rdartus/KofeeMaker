@@ -5,17 +5,26 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "db":"mongod",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "db": "mongod",
+    "test": "mocha lib/**/**.spec.js"
   },
   "author": "Richard Dartus & Thibault Delmas ",
   "license": "ISC",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.15.2",
-    "express": "^4.13.4",
+    "chai": "^3.5.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
     "eslint": "^3.18.0",
+    "express": "^4.13.4",
+    "express-session": "^1.15.2",
+    "mocha": "^3.2.0",
     "mongoose": "^4.4.15",
+    "morgan": "^1.8.1",
     "node-restful": "^0.2.5",
-    "nodemon": "^1.9.2"
+    "nodemon": "^1.9.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
   }
 }
