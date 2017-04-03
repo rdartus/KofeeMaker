@@ -5,20 +5,20 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 		// home page
 		.when('/', {
 			templateUrl: 'views/home.html',
-			controller: 'MainController'
+			controller: 'mainController'
 		})
 
 		.when('/kofee', {
 			templateUrl: 'views/kofee.html',
-			controller: 'KofeeController'
+			controller: 'kofeeController'
 		})
 		.when('/login', {
 			templateUrl: 'views/login.html',
-			controller: 'LoginController'
+			controller: 'loginController'
 		})
 		.when('/signup', {
-			templateUrl: 'views/register.html',
-			controller: 'SignupController'
+			templateUrl: 'views/signup.html',
+			controller: 'signupController'
 		})
 	$locationProvider.html5Mode(true);
 

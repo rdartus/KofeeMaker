@@ -1,4 +1,4 @@
-angular.module('KofeeCtrl', []).controller('KofeeController', function($scope) {
+angular.module('kofeeCtrl', []).controller('kofeeController', function($scope) {
 
 	$scope.tagline = 'The square root of life is pi!';	
 

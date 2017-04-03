@@ -1,1 +1,1 @@
-angular.module('sampleApp', ['ngRoute','appRoutes','MainCtrl','KofeeCtrl']);
+angular.module('sampleApp', ['ngRoute','appRoutes','mainCtrl','kofeeCtrl','loginCtrl','signupCtrl']);

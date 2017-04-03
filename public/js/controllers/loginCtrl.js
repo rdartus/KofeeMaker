@@ -1,4 +1,4 @@
-angular.module('LoginCtrl', []).controller('LoginController', function($scope) {
+angular.module('loginCtrl', []).controller('loginController', function($scope) {
 
 	$scope.tagline = 'To the moon and back!';	
 
